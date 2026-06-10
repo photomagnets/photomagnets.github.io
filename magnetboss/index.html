@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magnet Boss: Start & Grow a Photo Magnet Business</title>
+  <meta name="description" content="Magnet Boss is the resource for entrepreneurs who want to build a photo magnet business: equipment guides, supplier comparisons, pricing strategy, and business playbooks." />
+  <link rel="canonical" href="https://photomagnets.github.io/magnetboss/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --navy:#1A1F36; --red:#E8304A; --white:#FFFFFF; --cream:#F6F3EE; --muted:#6B7080; --border:#E2DDD6; --shadow:rgba(26,31,54,0.09); }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--cream); color: var(--navy); }
+    nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 40px; display: flex; align-items: center; gap: 32px; height: 56px; }
+    .nav-logo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+    .nav-logo::before { content: ''; width: 10px; height: 10px; border-radius: 50%; background: var(--red); flex-shrink: 0; }
+    .nav-links { display: flex; gap: 24px; list-style: none; margin-left: auto; }
+    .nav-links a { font-size: 0.85rem; font-weight: 500; color: var(--muted); text-decoration: none; }
+    .nav-links a:hover, .nav-links a.active { color: var(--navy); }
+    .hero { padding: 72px 40px 56px; max-width: 760px; margin: 0 auto; text-align: center; }
+    .eyebrow { font-family: 'Inter', sans-serif; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 18px; }
+    .badge { display: inline-block; background: var(--navy); color: var(--white); font-family: 'Inter', sans-serif; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 10px; border-radius: 3px; margin-left: 10px; vertical-align: middle; }
+    h1 { font-family: 'Inter', sans-serif; font-size: clamp(2rem, 4.5vw, 3.2rem); font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 20px; }
+    h1 em { font-style: normal; color: var(--red); }
+    .hero p { font-size: 1.05rem; line-height: 1.7; color: var(--muted); max-width: 520px; margin: 0 auto 32px; }
+    .btn-secondary { display: inline-block; background: transparent; color: var(--navy); font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.9rem; letter-spacing: 0.03em; padding: 13px 30px; border-radius: 4px; text-decoration: none; border: 2px solid var(--navy); transition: background 0.15s, color 0.15s; }
+    .btn-secondary:hover { background: var(--navy); color: var(--white); }
+    .section { max-width: 860px; margin: 0 auto; padding: 52px 40px; }
+    .section + .section { border-top: 1px solid var(--border); }
+    h2 { font-family: 'Inter', sans-serif; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 14px; }
+    h3 { font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
+    p { font-size: 0.97rem; line-height: 1.7; color: var(--muted); }
+    p + p { margin-top: 12px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 24px; }
+    .info-card { background: var(--white); border: 1px solid var(--border); border-radius: 6px; padding: 22px; }
+    .pill-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; list-style: none; }
+    .pill-list li { font-size: 0.82rem; font-weight: 500; background: var(--white); border: 1px solid var(--border); color: var(--navy); padding: 6px 14px; border-radius: 20px; }
+    .cta-block { background: var(--cream); border: 2px solid var(--border); border-radius: 8px; padding: 48px 40px; text-align: center; margin: 52px 40px; max-width: 860px; margin-left: auto; margin-right: auto; }
+    .cta-block h2 { margin-bottom: 12px; }
+    .cta-block p { margin-bottom: 28px; max-width: 440px; margin-left: auto; margin-right: auto; }
+    .section a:not([class]) { color: var(--red); text-decoration: none; font-weight: 500; }
+    .section a:not([class]):hover { text-decoration: underline; }
+    footer { border-top: 1px solid var(--border); padding: 28px 40px; text-align: center; font-size: 0.82rem; color: var(--muted); background: var(--white); }
+    footer a { color: var(--navy); font-weight: 500; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    @media (max-width: 600px) { nav { padding: 0 20px; } .nav-links { gap: 14px; } .hero, .section, .cta-block { padding-left: 20px; padding-right: 20px; margin-left: 0; margin-right: 0; } footer { padding: 20px; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="/">Photo Magnets</a>
+  <ul class="nav-links">
+    <li><a href="/freshmagnets/">Fresh Magnets</a></li>
+    <li><a href="/memorymagnets/">Memory Magnets</a></li>
+    <li><a href="/magnetello/">Magnetello</a></li>
+    <li><a href="/magnetboss/" class="active">Magnet Boss</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <p class="eyebrow">Education · Equipment <span class="badge">Coming soon</span></p>
+  <h1>Run a photo magnet<br /><em>business.</em></h1>
+  <p>Magnet Boss is the resource for entrepreneurs who want to build a real business around photo magnets, from choosing equipment to pricing jobs to landing your first event clients.</p>
+  <a class="btn-secondary" href="https://magnetboss.com" target="_blank" rel="noopener">Follow progress at MagnetBoss.com</a>
+</section>
+
+<div class="section">
+  <h2>What Magnet Boss covers</h2>
+  <p>The <a href="https://freshmagnets.com" target="_blank" rel="noopener">photo magnet</a> business is accessible. Relatively low startup cost, high margin on events, and a product people genuinely love. But there's real complexity in choosing the right equipment, understanding supply chains, and pricing your services correctly. Magnet Boss is being built to document all of it.</p>
+
+  <div class="grid-2">
+    <div class="info-card">
+      <h3>Equipment guides</h3>
+      <p>Which printers handle magnet stock well, what cutters to use for clean edges, and how to evaluate UV laminate options without testing every brand yourself.</p>
+    </div>
+    <div class="info-card">
+      <h3>Supplier directory</h3>
+      <p>Where to source magnetic sheet stock, blank magnet rolls, photo paper, and equipment, with pricing benchmarks so you know what fair looks like.</p>
+    </div>
+    <div class="info-card">
+      <h3>Pricing strategy</h3>
+      <p>How to price event booths, per-unit consumer orders, and wholesale runs. Margin math, competitive benchmarking, and packaging your offer.</p>
+    </div>
+    <div class="info-card">
+      <h3>Business playbooks</h3>
+      <p>How to land your first <a href="https://magnetello.com" target="_blank" rel="noopener">wedding magnet</a> client, what to include in an event proposal, and how to scale from side hustle to full-time operation.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Who it's for</h2>
+  <ul class="pill-list">
+    <li>Photographers adding products</li>
+    <li>Event entrepreneurs</li>
+    <li><a href="https://magnetello.com" target="_blank" rel="noopener">Photo booth operators</a></li>
+    <li>Side hustle builders</li>
+    <li>Print shop owners</li>
+    <li>Wedding industry vendors</li>
+    <li>E-commerce sellers</li>
+    <li>Anyone starting from scratch</li>
+  </ul>
+</div>
+
+<div class="cta-block">
+  <h2>Launching soon</h2>
+  <p>Magnet Boss is in development. Visit the site to follow progress or get notified when content goes live.</p>
+  <a class="btn-secondary" href="https://magnetboss.com" target="_blank" rel="noopener">Go to MagnetBoss.com →</a>
+</div>
+
+<footer>
+  <p><a href="/">← All Photo Magnets</a> &nbsp;·&nbsp;
+  <a href="/freshmagnets/">Fresh Magnets</a> &nbsp;·&nbsp;
+  <a href="/memorymagnets/">Memory Magnets</a> &nbsp;·&nbsp;
+  <a href="/magnetello/">Magnetello</a></p>
+</footer>
+
+</body>
+</html>
