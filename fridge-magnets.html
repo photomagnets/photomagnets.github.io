@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Magnets | Custom Fridge Magnets & Personalized Refrigerator Magnets</title>
+  <meta name="description" content="Turn your favorite photos into personalized fridge magnets. Custom photo magnets and magnetic photo prints in multiple sizes. Perfect refrigerator magnets for gifts, weddings, and everyday memories.">
+  <meta name="keywords" content="photo magnets, fridge magnets, custom photo magnets, personalized magnets, refrigerator magnets, custom fridge magnets, personalized fridge magnets, magnetic photo prints, custom magnets for fridge, photo magnets for fridge, save the date magnets, wedding favor magnets, custom refrigerator magnets, magnetic picture, photo fridge magnets, magnet photo prints, personalized photo magnets">
+  <meta property="og:title" content="Custom Photo Magnets and Fridge Magnets Made from Your Photos">
+  <meta property="og:description" content="Custom photo magnets made from your favorite photos. High-quality magnetic prints in multiple sizes, delivered fast.">
+  <meta property="og:type" content="website">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Custom Photo Magnets",
+    "description": "Personalized fridge magnets made from your photos. Available in multiple sizes with vibrant full-color printing on premium magnetic stock.",
+    "category": "Home Decor / Photo Gifts",
+    "brand": { "@type": "Brand", "name": "Photo Magnets" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What are photo magnets?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Photo magnets are custom-printed fridge magnets made from your personal photos. They combine vibrant full-color photo printing with a flexible magnetic backing so they stick to any metal surface."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long do photo magnets last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Quality photo magnets with UV-protective coating last 5 to 10 years indoors without noticeable fading."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What size should I choose for a photo magnet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For portrait photos, a 2x3 inch or 3x4 inch magnet works well. For group shots or landscape photos, go with 4x6 inches or larger. Mini magnets under 2 inches work great for profile-style close-up shots."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can photo magnets be used on any surface?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Photo magnets stick to any ferromagnetic metal surface, including refrigerators, filing cabinets, lockers, whiteboards with metal backing, and magnetic boards. They do not stick to aluminum surfaces like some modern fridges."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are save the date magnets?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Save the date magnets are custom refrigerator magnets printed with a couple's photo and wedding date, sent to guests months before the wedding. They serve the same purpose as paper save the dates but are far more likely to be kept and displayed on a fridge for months, keeping the date visible and top of mind."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between fridge magnets and refrigerator magnets?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fridge magnets and refrigerator magnets are the same thing. Both terms describe magnets designed to stick to the door of a refrigerator. Custom photo magnets, personalized fridge magnets, and photo refrigerator magnets all refer to the same product: a magnetic photo print made from your personal images."
+        }
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:        #1A1118;
+      --ink-soft:   #4A3F50;
+      --ink-muted:  #7A6E80;
+      --bg:         #FEFEFE;
+      --bg-warm:    #FFF9F5;
+      --bg-tint:    #FFF0F6;
+      --rose:       #E8347F;
+      --rose-light: #F7628A;
+      --rose-dark:  #C01E63;
+      --amber:      #FFB347;
+      --amber-dark: #E09020;
+      --sage:       #5BA08A;
+      --border:     #EDE8F0;
+      --border-strong: #D4CCE0;
+
+      --font-display: 'DM Serif Display', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+      --font-mono:    'DM Mono', monospace;
+
+      --r-sm: 8px;
+      --r-md: 14px;
+      --r-lg: 22px;
+      --r-xl: 32px;
+
+      --shadow-sm: 0 2px 8px rgba(26,17,24,0.07);
+      --shadow-md: 0 6px 24px rgba(26,17,24,0.10);
+      --shadow-lg: 0 16px 48px rgba(26,17,24,0.14);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ---- NAV ---- */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(254,254,254,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 clamp(20px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+    }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--ink);
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+    .nav-logo span { color: var(--rose); }
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--ink-soft);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--rose); }
+    .nav-cta {
+      background: var(--rose);
+      color: #fff !important;
+      padding: 7px 18px;
+      border-radius: 100px;
+    }
+    .nav-cta:hover { background: var(--rose-dark) !important; color: #fff !important; }
+
+    /* ---- HERO ---- */
+    .hero {
+      padding: clamp(60px, 10vh, 120px) clamp(20px, 5vw, 80px);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    .hero-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--rose);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .hero-label::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 2px;
+      background: var(--rose);
+      border-radius: 2px;
+    }
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      margin-bottom: 24px;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--rose);
+    }
+    .hero-desc {
+      font-size: 1.125rem;
+      color: var(--ink-soft);
+      margin-bottom: 36px;
+      max-width: 480px;
+      line-height: 1.75;
+    }
+    .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      font-size: 0.9375rem;
+      padding: 13px 26px;
+      border-radius: 100px;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary {
+      background: var(--rose);
+      color: #fff;
+      box-shadow: 0 4px 18px rgba(232,52,127,0.30);
+    }
+    .btn-primary:hover {
+      background: var(--rose-dark);
+      box-shadow: 0 6px 24px rgba(232,52,127,0.40);
+      transform: translateY(-1px);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--ink);
+      border: 1.5px solid var(--border-strong);
+    }
+    .btn-outline:hover {
+      border-color: var(--rose);
+      color: var(--rose);
+      transform: translateY(-1px);
+    }
+
+    /* Hero visual */
+    .hero-visual {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      position: relative;
+    }
+    .photo-card {
+      border-radius: var(--r-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+    .photo-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: var(--r-md);
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .photo-card-inner {
+      aspect-ratio: 3/4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 12px;
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: rgba(255,255,255,0.85);
+      letter-spacing: 0.04em;
+    }
+    .photo-card:nth-child(1) .photo-card-inner { background: linear-gradient(160deg, #F7A8C4 0%, #E8347F 100%); }
+    .photo-card:nth-child(2) .photo-card-inner { background: linear-gradient(160deg, #FFD580 0%, #FF8C42 100%); margin-top: 24px; }
+    .photo-card:nth-child(3) .photo-card-inner { background: linear-gradient(160deg, #A8D8CF 0%, #5BA08A 100%); }
+    .photo-card:nth-child(4) .photo-card-inner { background: linear-gradient(160deg, #C8B8F0 0%, #7C6FCD 100%); margin-top: -12px; }
+    .photo-card:nth-child(5) .photo-card-inner { background: linear-gradient(160deg, #F4A8A8 0%, #C0392B 100%); margin-top: 12px; }
+    .photo-card:nth-child(6) .photo-card-inner { background: linear-gradient(160deg, #A8D0F7 0%, #2980B9 100%); }
+
+    .card-label {
+      background: rgba(0,0,0,0.25);
+      backdrop-filter: blur(6px);
+      padding: 4px 10px;
+      border-radius: 100px;
+    }
+    .magnet-dot {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.35);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+    .hero-badge {
+      position: absolute;
+      bottom: -20px;
+      right: -10px;
+      background: var(--ink);
+      color: #fff;
+      border-radius: var(--r-md);
+      padding: 14px 18px;
+      font-size: 0.75rem;
+      font-family: var(--font-mono);
+      box-shadow: var(--shadow-lg);
+      line-height: 1.5;
+    }
+    .hero-badge strong {
+      display: block;
+      font-size: 1.5rem;
+      font-family: var(--font-display);
+      color: var(--amber);
+      line-height: 1.2;
+    }
+
+    /* ---- TRUST STRIP ---- */
+    .trust-strip {
+      background: var(--ink);
+      color: rgba(255,255,255,0.7);
+      padding: 18px clamp(20px, 5vw, 80px);
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .trust-item svg { flex-shrink: 0; }
+
+    /* ---- SECTION BASE ---- */
+    section { padding: clamp(60px, 8vh, 100px) clamp(20px, 5vw, 80px); }
+    .section-inner { max-width: 1180px; margin: 0 auto; }
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--rose);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 3vw, 2.7rem);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      margin-bottom: 16px;
+    }
+    .section-desc {
+      color: var(--ink-soft);
+      font-size: 1.0625rem;
+      max-width: 580px;
+      line-height: 1.75;
+    }
+    .section-header { margin-bottom: 52px; }
+
+    /* ---- INTRO SECTION ---- */
+    .intro { background: var(--bg); }
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .intro-text p {
+      color: var(--ink-soft);
+      line-height: 1.8;
+      font-size: 1.0625rem;
+      margin-bottom: 20px;
+    }
+    .highlight-inline {
+      background: var(--bg-tint);
+      border-left: 3px solid var(--rose);
+      padding: 14px 20px;
+      border-radius: 0 var(--r-sm) var(--r-sm) 0;
+      margin: 28px 0;
+      font-style: italic;
+      color: var(--ink);
+      font-size: 1.05rem;
+    }
+    .stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .stat-card {
+      background: var(--bg-warm);
+      border: 1px solid var(--border);
+      border-radius: var(--r-md);
+      padding: 24px;
+    }
+    .stat-number {
+      font-family: var(--font-display);
+      font-size: 2.5rem;
+      color: var(--rose);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .stat-label {
+      font-size: 0.875rem;
+      color: var(--ink-muted);
+      font-weight: 500;
+    }
+
+    /* ---- BENEFITS ---- */
+    .benefits { background: var(--bg-warm); }
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .benefit-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      padding: 32px 28px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .benefit-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-3px);
+    }
+    .benefit-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--r-sm);
+      background: var(--bg-tint);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+    }
+    .benefit-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+      color: var(--ink);
+    }
+    .benefit-card p {
+      font-size: 0.9375rem;
+      color: var(--ink-soft);
+      line-height: 1.7;
+    }
+
+    /* ---- TYPES ---- */
+    .types { background: var(--bg); }
+    .types-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .type-card {
+      border: 1.5px solid var(--border);
+      border-radius: var(--r-md);
+      overflow: hidden;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .type-card:hover {
+      border-color: var(--rose);
+      box-shadow: 0 0 0 3px rgba(232,52,127,0.08);
+    }
+    .type-thumb {
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-family: var(--font-mono);
+      color: rgba(255,255,255,0.8);
+      letter-spacing: 0.06em;
+      position: relative;
+    }
+    .type-card:nth-child(1) .type-thumb { background: linear-gradient(135deg, #FFD580, #FF8C42); }
+    .type-card:nth-child(2) .type-thumb { background: linear-gradient(135deg, #F7A8C4, #E8347F); }
+    .type-card:nth-child(3) .type-thumb { background: linear-gradient(135deg, #A8D0F7, #2980B9); }
+    .type-card:nth-child(4) .type-thumb { background: linear-gradient(135deg, #A8D8CF, #5BA08A); }
+    .type-shape {
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.5);
+      border-radius: 6px;
+    }
+    .type-body { padding: 18px 16px; }
+    .type-body h3 {
+      font-weight: 600;
+      font-size: 0.9375rem;
+      margin-bottom: 4px;
+      color: var(--ink);
+    }
+    .type-body p {
+      font-size: 0.8125rem;
+      color: var(--ink-muted);
+      line-height: 1.6;
+    }
+    .type-size {
+      display: inline-block;
+      margin-top: 10px;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      background: var(--bg-tint);
+      color: var(--rose);
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-weight: 500;
+    }
+
+    /* ---- INFO BOX ---- */
+    .infobox {
+      background: var(--bg-warm);
+      padding: clamp(40px, 6vh, 70px) clamp(20px, 5vw, 80px);
+    }
+    .infobox-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+    .info-card {
+      border-radius: var(--r-lg);
+      padding: 32px;
+    }
+    .info-card-tip {
+      background: var(--bg-tint);
+      border: 1px solid rgba(232,52,127,0.2);
+    }
+    .info-card-warn {
+      background: #FFF9EC;
+      border: 1px solid rgba(255,179,71,0.35);
+    }
+    .info-card-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .info-badge {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 100px;
+    }
+    .badge-tip { background: var(--rose); color: #fff; }
+    .badge-warn { background: var(--amber); color: var(--ink); }
+    .info-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      color: var(--ink);
+    }
+    .info-card ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .info-card li {
+      font-size: 0.9375rem;
+      color: var(--ink-soft);
+      display: flex;
+      gap: 10px;
+      line-height: 1.6;
+    }
+    .info-card li::before {
+      content: '';
+      flex-shrink: 0;
+      margin-top: 8px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+    }
+    .info-card-tip li::before { background: var(--rose); }
+    .info-card-warn li::before { background: var(--amber-dark); }
+
+    /* ---- USE CASES ---- */
+    .usecases { background: var(--bg); }
+    .usecase-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+    }
+    .usecase-card {
+      display: flex;
+      gap: 24px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      align-items: flex-start;
+      transition: box-shadow 0.2s;
+    }
+    .usecase-card:hover { box-shadow: var(--shadow-sm); }
+    .usecase-num {
+      flex-shrink: 0;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--bg-tint);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      color: var(--rose);
+    }
+    .usecase-card h3 {
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin-bottom: 8px;
+      color: var(--ink);
+    }
+    .usecase-card p {
+      font-size: 0.9375rem;
+      color: var(--ink-soft);
+      line-height: 1.7;
+    }
+
+    /* ---- HOW IT WORKS ---- */
+    .how { background: var(--ink); color: #fff; }
+    .how .section-title { color: #fff; }
+    .how .section-desc { color: rgba(255,255,255,0.6); }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      position: relative;
+    }
+    .steps::before {
+      content: '';
+      position: absolute;
+      top: 28px;
+      left: calc(16.66% + 20px);
+      right: calc(16.66% + 20px);
+      height: 1px;
+      background: rgba(255,255,255,0.15);
+    }
+    .step {
+      text-align: center;
+      position: relative;
+    }
+    .step-circle {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--rose);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      color: #fff;
+      margin: 0 auto 24px;
+      position: relative;
+      z-index: 1;
+    }
+    .step h3 {
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    .step p {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.7;
+    }
+
+    /* ---- FAQ ---- */
+    .faq { background: var(--bg-warm); }
+    .faq-list { max-width: 760px; display: flex; flex-direction: column; gap: 4px; }
+    details {
+      border: 1px solid var(--border);
+      border-radius: var(--r-md);
+      background: var(--bg);
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+    details[open] {
+      border-color: var(--rose);
+      box-shadow: 0 0 0 3px rgba(232,52,127,0.07);
+    }
+    summary {
+      padding: 20px 24px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--ink);
+      user-select: none;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: '+';
+      font-size: 1.3rem;
+      font-weight: 300;
+      color: var(--rose);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+    details[open] summary::after {
+      content: '-';
+    }
+    .faq-answer {
+      padding: 0 24px 22px;
+      font-size: 0.9375rem;
+      color: var(--ink-soft);
+      line-height: 1.75;
+    }
+
+    /* ---- CTA ---- */
+    .cta-section {
+      background: linear-gradient(135deg, var(--rose-dark) 0%, var(--rose) 50%, #F7628A 100%);
+      padding: clamp(70px, 10vh, 120px) clamp(20px, 5vw, 80px);
+      text-align: center;
+    }
+    .cta-section h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      color: #fff;
+      margin-bottom: 18px;
+      line-height: 1.15;
+    }
+    .cta-section p {
+      color: rgba(255,255,255,0.82);
+      font-size: 1.125rem;
+      margin-bottom: 40px;
+      max-width: 520px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-white {
+      background: #fff;
+      color: var(--rose-dark);
+      font-weight: 700;
+    }
+    .btn-white:hover {
+      background: var(--bg-warm);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    /* ---- FOOTER ---- */
+    footer {
+      background: var(--ink);
+      color: rgba(255,255,255,0.4);
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 0.8125rem;
+    }
+
+    /* ---- RESPONSIVE ---- */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; gap: 48px; }
+      .hero-visual { grid-template-columns: repeat(3, 1fr); max-width: 420px; margin: 0 auto; }
+      .intro-grid { grid-template-columns: 1fr; gap: 40px; }
+      .benefits-grid { grid-template-columns: 1fr 1fr; }
+      .types-grid { grid-template-columns: 1fr 1fr; }
+      .infobox-inner { grid-template-columns: 1fr; }
+      .usecase-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; gap: 32px; }
+      .steps::before { display: none; }
+      .nav-links { display: none; }
+    }
+    @media (max-width: 580px) {
+      .benefits-grid { grid-template-columns: 1fr; }
+      .types-grid { grid-template-columns: 1fr 1fr; }
+      .stat-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav aria-label="Main navigation">
+  <a class="nav-logo" href="/">Photo <span>Magnets</span></a>
+  <ul class="nav-links">
+    <li><a href="#what-are">About</a></li>
+    <li><a href="#types">Sizes</a></li>
+    <li><a href="#uses">Uses</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#order" class="nav-cta">Order Now</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header>
+  <div class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-label">Custom Photo Magnets</div>
+      <h1>Custom <em>Photo Magnets</em><br>Made from Your<br>Favorite Memories</h1>
+      <p class="hero-desc">Turn your best photos into vibrant, high-quality fridge magnets. Printed on premium magnetic stock, shipped fast, and built to last for years on any metal surface.</p>
+      <div class="hero-actions">
+        <a href="#order" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1l1.5 4.5H14l-3.5 2.5 1.5 4.5L8 10l-4 2.5 1.5-4.5L2 5.5h4.5L8 1z" fill="currentColor"/></svg>
+          Create Your Magnets
+        </a>
+        <a href="#what-are" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-visual" role="img" aria-label="Sample photo magnets in various styles">
+      <div class="photo-card"><div class="photo-card-inner"><span class="magnet-dot"></span><span class="card-label">Family</span></div></div>
+      <div class="photo-card"><div class="photo-card-inner"><span class="magnet-dot"></span><span class="card-label">Travel</span></div></div>
+      <div class="photo-card"><div class="photo-card-inner"><span class="magnet-dot"></span><span class="card-label">Pets</span></div></div>
+      <div class="photo-card"><div class="photo-card-inner"><span class="magnet-dot"></span><span class="card-label">Wedding</span></div></div>
+      <div class="photo-card"><div class="photo-card-inner"><span class="magnet-dot"></span><span class="card-label">Friends</span></div></div>
+      <div class="photo-card"><div class="photo-card-inner"><span class="magnet-dot"></span><span class="card-label">Vacation</span></div></div>
+      <div class="hero-badge">
+        <strong>10M+</strong>
+        magnets made<br>and counting
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip" role="complementary" aria-label="Trust indicators">
+  <div class="trust-item">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1l1.5 4.5H14l-3.5 2.5 1.5 4.5L8 10l-4 2.5 1.5-4.5L2 5.5h4.5z" fill="#FFB347"/></svg>
+    Premium Magnetic Stock
+  </div>
+  <div class="trust-item">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="#5BA08A" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="#5BA08A" stroke-width="1.5" stroke-linecap="round"/></svg>
+    UV-Protected Printing
+  </div>
+  <div class="trust-item">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="2" y="3" width="12" height="10" rx="2" stroke="#E8347F" stroke-width="1.5"/><path d="M5 7h6M5 10h4" stroke="#E8347F" stroke-width="1.5" stroke-linecap="round"/></svg>
+    Fast 3-5 Day Shipping
+  </div>
+  <div class="trust-item">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2C5.79 2 4 3.79 4 6c0 3.5 4 8 4 8s4-4.5 4-8c0-2.21-1.79-4-4-4z" stroke="#FFB347" stroke-width="1.5"/></svg>
+    Multiple Sizes Available
+  </div>
+  <div class="trust-item">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8h12M8 2l6 6-6 6" stroke="#A8D8CF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Satisfaction Guaranteed
+  </div>
+</div>
+
+<!-- WHAT ARE PHOTO MAGNETS -->
+<section class="intro" id="what-are">
+  <div class="section-inner">
+    <div class="intro-grid">
+      <div class="intro-text">
+        <p class="section-label">The Basics</p>
+        <h2 class="section-title">What Are Photo Magnets?</h2>
+        <p>Photo magnets are custom-made fridge magnets that feature your own photographs. Also called magnetic pictures or magnet photo prints, they combine full-color, high-resolution printing with a flexible magnetic backing, giving you a personal, functional display piece that sticks to any metal surface.</p>
+        <p>Unlike traditional photo prints that end up in a drawer or a digital file buried in cloud storage, photo magnets for fridge display bring your memories into your everyday environment. Every time you open the refrigerator, you see the people, places, and pets you love most.</p>
+        <blockquote class="highlight-inline">
+          "A photo magnet is the cheapest way to turn a digital file into something tangible that you interact with every single day."
+        </blockquote>
+        <p>Modern magnetic photo prints are produced using inkjet or dye-sublimation technology on flexible magnetic sheets. The best custom magnets for fridge use include a UV-protective laminate that prevents fading and resists moisture, making them durable for years of display on a refrigerator door, filing cabinet, locker, or any steel surface.</p>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-number">5-10</div>
+          <div class="stat-label">Years indoor lifespan with UV coating</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1"</div>
+          <div class="stat-label">Smallest available magnet size</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">300+</div>
+          <div class="stat-label">DPI print resolution for razor-sharp images</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">4x6</div>
+          <div class="stat-label">Most popular size for group photos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section class="benefits" id="benefits">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-label">Why Choose Photo Magnets</p>
+      <h2 class="section-title">More Than Just a Fridge Magnet</h2>
+      <p class="section-desc">Custom photo magnets combine the warmth of a printed photo with the practicality of a refrigerator magnet. Here is why millions of people choose personalized magnets every year.</p>
+    </div>
+    <div class="benefits-grid">
+      <article class="benefit-card">
+        <div class="benefit-icon">🎨</div>
+        <h3>Vibrant Color Quality</h3>
+        <p>Professional-grade printing captures every detail of your photo, from the deepest shadows to the brightest highlights. The result is a magnet that looks as good as a framed print, at a fraction of the cost.</p>
+      </article>
+      <article class="benefit-card">
+        <div class="benefit-icon">💪</div>
+        <h3>Durable and Long-Lasting</h3>
+        <p>Quality photo magnets are laminated with a UV-resistant coating that protects against fading, moisture, and everyday handling. Unlike paper prints, they do not yellow or warp over time when stored indoors.</p>
+      </article>
+      <article class="benefit-card">
+        <div class="benefit-icon">📐</div>
+        <h3>Any Size, Any Shape</h3>
+        <p>From pocket-sized 1x1.5 inch mini magnets to full 4x6 inch portrait formats, photo magnets are available in sizes that fit any photo composition, from close-up pet portraits to wide landscape vacation shots.</p>
+      </article>
+      <article class="benefit-card">
+        <div class="benefit-icon">🎁</div>
+        <h3>The Perfect Personalized Gift</h3>
+        <p>Personalized photo magnets consistently rank among the most appreciated personal gifts. Affordable, meaningful, and universally useful, a set of custom magnets featuring family moments beats any generic gift every time.</p>
+      </article>
+      <article class="benefit-card">
+        <div class="benefit-icon">🏠</div>
+        <h3>Instant Home Decor</h3>
+        <p>A collection of custom fridge magnets arranged on a refrigerator transforms a blank metal surface into a living memory wall. Mix sizes, rotate seasonally, and keep adding photo fridge magnets as memories accumulate.</p>
+      </article>
+      <article class="benefit-card">
+        <div class="benefit-icon">⚡</div>
+        <h3>Fast Turnaround</h3>
+        <p>Most orders are printed and shipped within 24 to 48 hours. Standard delivery arrives in 3 to 5 business days, with express options available when you need magnets for an event or a birthday in a hurry.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- TYPES -->
+<section class="types" id="types">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-label">Sizes and Styles</p>
+      <h2 class="section-title">Custom Fridge Magnet Sizes</h2>
+      <p class="section-desc">Three sizes cover the vast majority of photo magnet orders. Here is what each one is best suited for and why these are the most popular custom fridge magnet formats.</p>
+    </div>
+    <div class="types-grid">
+      <article class="type-card">
+        <div class="type-thumb">
+          <div class="type-shape" style="width:64px;height:64px;border-radius:6px;"></div>
+        </div>
+        <div class="type-body">
+          <h3>Square Magnet</h3>
+          <p>The most balanced format for centered portraits, pet close-ups, and Instagram-style square crops. Looks great displayed in a grid on the fridge.</p>
+          <span class="type-size">2.5" x 2.5"</span>
+        </div>
+      </article>
+      <article class="type-card">
+        <div class="type-thumb">
+          <div class="type-shape" style="width:54px;height:72px;border-radius:6px;"></div>
+        </div>
+        <div class="type-body">
+          <h3>Classic Portrait</h3>
+          <p>The most popular size overall. Works perfectly for individual portraits, couple shots, pet photos, and any vertical composition from a smartphone camera.</p>
+          <span class="type-size">2" x 3"</span>
+        </div>
+      </article>
+      <article class="type-card">
+        <div class="type-thumb">
+          <div class="type-shape" style="width:64px;height:64px;border-radius:50%;"></div>
+        </div>
+        <div class="type-body">
+          <h3>Round Magnet</h3>
+          <p>A circle format that stands out among rectangular prints. Great for headshots, pet portraits, and logo-style designs. Popular for wedding favors and save the date sets.</p>
+          <span class="type-size">2.25" round</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- INFO BOXES -->
+<div class="infobox" role="complementary" aria-label="Tips and warnings">
+  <div class="infobox-inner">
+    <div class="info-card info-card-tip">
+      <div class="info-card-header">
+        <span class="info-badge badge-tip">Pro Tips</span>
+        <h3>Get the Best Results</h3>
+      </div>
+      <ul>
+        <li>Use photos with at least 1200 x 1600 pixels for a 4x6 magnet to ensure sharp, crisp printing at 300 DPI.</li>
+        <li>Avoid heavily filtered or low-contrast Instagram edits. Natural colors print more accurately and look better in person.</li>
+        <li>Leave a small margin around the edges of your photo. Some printers trim a millimeter or two on each side during cutting.</li>
+        <li>For group photos, make sure all faces are in focus before ordering. Blurry faces on a large magnet are very noticeable.</li>
+        <li>Order a sample set of 3 to 5 magnets before placing a bulk order to verify color accuracy on your specific printer.</li>
+      </ul>
+    </div>
+    <div class="info-card info-card-warn">
+      <div class="info-card-header">
+        <span class="info-badge badge-warn">Things to Know</span>
+        <h3>Before You Order</h3>
+      </div>
+      <ul>
+        <li>Photo magnets do not stick to aluminum or stainless steel non-magnetic fridges. Many modern fridges have non-magnetic doors. Test with a regular fridge magnet first.</li>
+        <li>Direct sunlight will fade any photo magnet over time. Indoor display without sun exposure extends the lifespan significantly.</li>
+        <li>Flexible magnetic sheets have a weaker hold than thick ceramic magnets. They may slide on smooth vertical surfaces if the weight is too heavy.</li>
+        <li>Very dark or very light photos can lose detail in printing. Add slight contrast in your photo editor before uploading for best results.</li>
+        <li>Minimum order quantities apply with some bulk-discount suppliers. Single magnets are available but cost more per unit than sets of 10 or more.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- USE CASES -->
+<section class="usecases" id="uses">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-label">Creative Ideas</p>
+      <h2 class="section-title">Ways to Use Photo Magnets</h2>
+      <p class="section-desc">Photo magnets are versatile. Here are the most popular ways people use them at home and for events.</p>
+    </div>
+    <div class="usecase-grid">
+      <article class="usecase-card">
+        <div class="usecase-num">1</div>
+        <div>
+          <h3>Fridge Memory Wall</h3>
+          <p>Build a growing collection of photo magnets for fridge display directly on the refrigerator door. Arrange by year, theme, or family member. Swap in new custom magnets as memories accumulate and keep your favorites on permanent display where you see them daily.</p>
+        </div>
+      </article>
+      <article class="usecase-card">
+        <div class="usecase-num">2</div>
+        <div>
+          <h3>Save the Date and Wedding Favor Magnets</h3>
+          <p>Save the date magnets have become a go-to alternative to paper mailers because guests pin them to the fridge and see them for months. After the event, personalized fridge magnets work equally well as wedding favor magnets, giving guests a keepsake with the couple's photo that they will actually use for years rather than toss in a drawer.</p>
+        </div>
+      </article>
+      <article class="usecase-card">
+        <div class="usecase-num">3</div>
+        <div>
+          <h3>Grandparent Gift Sets</h3>
+          <p>A set of 10 to 20 photo magnets featuring grandchildren is consistently one of the most-loved gifts for grandparents. It updates their kitchen display without requiring them to hang anything or buy frames, and it covers their fridge in family love.</p>
+        </div>
+      </article>
+      <article class="usecase-card">
+        <div class="usecase-num">4</div>
+        <div>
+          <h3>School and Sports Photos</h3>
+          <p>Annual school portraits and team sports photos translated into magnets create a year-by-year display that is far more accessible than an album. Parents, coaches, and relatives can each get a copy at low cost per unit when ordered in bulk.</p>
+        </div>
+      </article>
+      <article class="usecase-card">
+        <div class="usecase-num">5</div>
+        <div>
+          <h3>Pet Photo Magnets</h3>
+          <p>Pet photos are among the most-ordered magnet subjects. A close-up portrait of a dog, cat, or rabbit printed on a 3x4 inch magnet makes a charming kitchen accent and a perfect gift for pet-loving friends. Pet memorial magnets are also popular.</p>
+        </div>
+      </article>
+      <article class="usecase-card">
+        <div class="usecase-num">6</div>
+        <div>
+          <h3>Travel Photo Collections</h3>
+          <p>Document your travels with a magnet from each destination. A collection of travel photo magnets on a metal board or map creates a tactile, visual travel journal you can rearrange and add to after every trip.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="how">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-label" style="color:rgba(255,255,255,0.5);">Simple Process</p>
+      <h2 class="section-title">How It Works</h2>
+      <p class="section-desc" style="color:rgba(255,255,255,0.6);">Ordering custom photo magnets takes less than three minutes from photo upload to checkout.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-circle">1</div>
+        <h3>Upload Your Photo</h3>
+        <p>Choose any JPEG or PNG from your phone, computer, or cloud storage. Our tool previews exactly how it will look printed at your chosen size.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">2</div>
+        <h3>Pick Your Size</h3>
+        <p>Select from mini, standard, or large formats. Order a single magnet or a set. Bulk pricing applies automatically at 10 or more magnets.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">3</div>
+        <h3>Receive and Display</h3>
+        <p>Your magnets are printed within 24 hours and shipped in protective packaging. Standard delivery takes 3 to 5 business days to any US address.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-label">Common Questions</p>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-desc">Everything you need to know before ordering your first set of custom photo magnets.</p>
+    </div>
+    <div class="faq-list">
+      <details open>
+        <summary>What are photo magnets made of?</summary>
+        <div class="faq-answer">
+          Photo magnets are made from flexible magnetic sheeting, typically 20 to 30 mil thick. Your photo is printed directly onto the magnetic surface using high-resolution inkjet or dye-sublimation printing, then sealed with a UV-resistant gloss or matte laminate layer. The result is a thin, lightweight magnet that holds well on any ferromagnetic surface.
+        </div>
+      </details>
+      <details>
+        <summary>How long do photo magnets last?</summary>
+        <div class="faq-answer">
+          With UV-protective coating and indoor display away from direct sunlight, quality photo magnets last 5 to 10 years without noticeable fading. Magnets left in direct sunlight or humid outdoor environments will fade faster. For maximum longevity, display them on interior surfaces, not on outdoor metal furniture or mailboxes.
+        </div>
+      </details>
+      <details>
+        <summary>Can photo magnets be used on any fridge?</summary>
+        <div class="faq-answer">
+          Photo magnets stick to any ferromagnetic steel surface. The majority of refrigerators have magnetic steel doors and work perfectly. However, some premium stainless steel and aluminum-clad fridges are not magnetic. Test with any standard fridge magnet before ordering a large set. If your fridge is not magnetic, a metal magnetic board mounted on a wall is a great alternative display option.
+        </div>
+      </details>
+      <details>
+        <summary>What photo resolution do I need?</summary>
+        <div class="faq-answer">
+          For sharp printing at 300 DPI, aim for these minimum file sizes by magnet dimensions: 2x3 inch magnets need at least 600x900 pixels; 3x4 inch magnets need 900x1200 pixels; 4x6 inch magnets need 1200x1800 pixels. Most smartphone photos from 2016 and newer easily meet or exceed these requirements. If your photo looks sharp zoomed in on your phone screen, it will print clearly as a magnet.
+        </div>
+      </details>
+      <details>
+        <summary>Are photo magnets safe for children?</summary>
+        <div class="faq-answer">
+          Standard flexible photo magnets are safe and non-toxic. They do not have small detachable parts and use food-safe, water-based inks in most quality production processes. However, very small mini magnets under 1 inch could be a choking hazard for children under three. If ordering magnets that will be within reach of toddlers, choose 3x4 inch or larger sizes to eliminate that risk.
+        </div>
+      </details>
+      <details>
+        <summary>Can I order just one photo magnet?</summary>
+        <div class="faq-answer">
+          Yes, most services including ours offer single-magnet orders with no minimum quantity requirement. The per-unit cost is higher for single orders compared to sets of 10 or more, but ordering one first is a great way to check color accuracy and quality before committing to a bulk order for an event or gift set.
+        </div>
+      </details>
+      <details>
+        <summary>What are save the date magnets and how do they work?</summary>
+        <div class="faq-answer">
+          Save the date magnets are custom refrigerator magnets printed with an engagement photo and the wedding date, sent to guests 6 to 12 months before the wedding. Unlike paper cards that get lost or thrown away, save the date magnets go straight onto the fridge where guests see them regularly until the big day. They are typically ordered in sets of 50 to 200 for a wedding guest list, and the same design is often reprinted as wedding favor magnets given out at the reception.
+        </div>
+      </details>
+      <details>
+        <summary>Are custom refrigerator magnets the same as fridge magnets?</summary>
+        <div class="faq-answer">
+          Yes, custom refrigerator magnets and custom fridge magnets are exactly the same product. The terms are used interchangeably. Whether you search for photo magnets for fridge, personalized fridge magnets, or custom refrigerator magnets, you are looking for the same thing: a flexible magnetic photo print sized to display on a metal refrigerator door.
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="order" aria-labelledby="cta-heading">
+  <h2 id="cta-heading">Ready to Make<br><em style="font-style:italic;">Your Magnets?</em></h2>
+  <p>Upload a photo, choose your size, and have custom photo magnets delivered to your door in less than a week. Start with as few as one, or order a set of 20 for gifts and save more per magnet.</p>
+  <a href="#" class="btn btn-white">Create Your Photo Magnets</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2025 Photo Magnets. All rights reserved. Custom photo magnets and fridge magnets printed and shipped in the USA.</p>
+</footer>
+
+</body>
+</html>
